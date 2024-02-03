@@ -1,0 +1,4 @@
+name: EndTrader
+version: '1.0'
+main: by.lisoveliy.EndTrader
+api-version: '1.20'

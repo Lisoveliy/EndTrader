@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="endtrader-test">
+    <output-path>$PROJECT_DIR$/../../../MultiMC/paperserver/plugins</output-path>
+    <root id="archive" name="endtrader-test.jar" />
+  </artifact>
+</component>
