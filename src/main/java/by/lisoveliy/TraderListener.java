@@ -23,7 +23,7 @@ public class TraderListener implements Listener {
                     .stream()
                     .anyMatch(recipe -> recipe.getIngredients()
                             .stream()
-                            .anyMatch(stacks -> stacks.getType() == Material.ENDER_PEARL)))
+                            .anyMatch(stack -> stack.getType() == Material.ENDER_PEARL)))
                 return;
 
             var recipe = new MerchantRecipe(new ItemStack(Material.ENDER_PEARL, 1), Integer.MAX_VALUE);
